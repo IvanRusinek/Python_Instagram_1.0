@@ -24,8 +24,8 @@ boton = BotMarta.find_element_by_xpath ('//*[@id="loginForm"]/div/div[3]')
 time.sleep(1)
 
 #informacion que se coloca en los elementos
-usuario.send_keys("lasemanademoda")
-contraseña.send_keys("lasemanademoda123456789Nattale")
+usuario.send_keys("#")
+contraseña.send_keys("#")
 time.sleep(1)
 boton.click()
 time.sleep(2)
